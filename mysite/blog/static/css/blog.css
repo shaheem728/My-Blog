@@ -11,7 +11,10 @@
   .bigbrand{
     font-size: 1.5em;
   }
-
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+}
 
   
   .loader {
