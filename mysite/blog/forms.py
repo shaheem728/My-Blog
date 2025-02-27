@@ -12,7 +12,7 @@ class PostForms(forms.ModelForm):
 
 
 
-class CommentForm(form.ModelForm):
+class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ('author','text')
