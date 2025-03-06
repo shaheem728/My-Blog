@@ -7,6 +7,10 @@
     font-size: 1.5em;
     font-weight: bolder;
   }
+ .logout{
+  margin-top: 10px;
+  color: #0f8;
+ } 
 .centerstage{
   margin-left: auto;
   margin-right: auto;
