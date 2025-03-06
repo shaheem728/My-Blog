@@ -32,11 +32,11 @@
                 {% if user.is_authenticated %}
                     <li><a href="{% url 'post_new' %}">New Post</a></li>
                     <li><a href="{% url 'post_draft_list' %}">Drafts</a></li>
-                    <li>
+                    <li style="margin-top: 5px;">
                         <form method="post" action="{% url 'logout' %}" style="display: inline;">
                             {% csrf_token %}
-                            <button type="submit" class="btn btn-link " style=" text-decoration: none;">
-                                Log out
+                            <button type="submit" class="btn btn-link " style="font-size:20px;">
+                            Log out 
                             </button>
                         </form>
                     </li>

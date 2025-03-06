@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
     path('accounts/login/', LoginView.as_view(), name='login'),  # Use LoginView
-    path('accounts/logout/', LogoutView.as_view(), name='logout', kwargs={'next_page': '/'}),  # Use LogoutView
+    path('accounts/logout/', LogoutView.as_view(next_page='/'), name='logout'),  # Use LogoutView
 ]
 
